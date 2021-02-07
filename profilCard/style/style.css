@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
 * {
     margin: 0;
     font-family: 'Kumbh Sans','Sans Serif';
@@ -14,7 +21,7 @@ body {
     background: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-position: -250px -400px, 700px 500px;
     background-repeat: no-repeat;
-    background-color: hsl(185, 75%, 39%);
+    background-color: --dark-cyan;
 }
 
 .container {
@@ -60,13 +67,13 @@ body {
     margin-top: 55px;
     font-weight: 700;
     font-size: 18px;
-    color: hsl(229, 23%, 23%);
+    color: --very-dark-blue;
 }
 
 .card > p > span {
     font-weight: 400; 
     font-size: 18px;
-    color: hsl(0, 0%, 59%);
+    color: --dark-gray;
 }
 
 .card > p + p {
@@ -96,14 +103,14 @@ body {
 
 .card .stats .sm h1{
     font-size: 18px;
-    color: hsl(229, 23%, 23%);
+    color: --very-dark-blue;
 }
 
 .card .stats .sm p {
     margin: 0;
     font-weight: 400;
     font-size: 13px;
-    color: hsl(0, 0%, 59%);
+    color: --dark-gray;
     letter-spacing: 1px;
 }
 
